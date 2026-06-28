@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:black;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#39ff14;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#39ff14;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#39ff14;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:20px;
+    max-width:600px;
+}
+
+.hero button{
+    margin-top:25px;
+    padding:12px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:5px;
+    background:#39ff14;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    transform:scale(1.05);
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:70px 20px;
+}
+
+.card{
+    width:300px;
+    background:#222;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h2{
+    color:#39ff14;
+    margin-bottom:15px;
+}
+
+.about,
+.contact{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.about h2,
+.contact h2{
+    color:#39ff14;
+    margin-bottom:20px;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+}
